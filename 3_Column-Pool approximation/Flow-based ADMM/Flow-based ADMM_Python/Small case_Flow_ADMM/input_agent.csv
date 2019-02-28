@@ -1,0 +1,4 @@
+agent_id,column_cost,served_pax_group,Path_node_sequence,path_time_sequence
+1,7,1;2,1;2;5,1;2;4
+2,4,1;,1;3;5,1;3;5
+3,2,2;,1;4;5,1;2;5

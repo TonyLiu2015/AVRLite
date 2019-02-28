@@ -1,0 +1,277 @@
+Network has 144 nodes, 288 links, 30  passengers, 30 vehicles
+
+link no.109,  3->25, service code 1
+link no.110,  25->3, service code 1
+link no.111,  17->26, service code -1
+link no.112,  26->17, service code -1
+link no.113,  3->27, service code 2
+link no.114,  27->3, service code 2
+link no.115,  18->28, service code -2
+link no.116,  28->18, service code -2
+link no.117,  4->29, service code 3
+link no.118,  29->4, service code 3
+link no.119,  19->30, service code -3
+link no.120,  30->19, service code -3
+link no.121,  4->31, service code 4
+link no.122,  31->4, service code 4
+link no.123,  21->32, service code -4
+link no.124,  32->21, service code -4
+link no.125,  5->33, service code 5
+link no.126,  33->5, service code 5
+link no.127,  22->34, service code -5
+link no.128,  34->22, service code -5
+link no.129,  5->35, service code 6
+link no.130,  35->5, service code 6
+link no.131,  22->36, service code -6
+link no.132,  36->22, service code -6
+link no.133,  6->37, service code 7
+link no.134,  37->6, service code 7
+link no.135,  24->38, service code -7
+link no.136,  38->24, service code -7
+link no.137,  6->39, service code 8
+link no.138,  39->6, service code 8
+link no.139,  18->40, service code -8
+link no.140,  40->18, service code -8
+link no.141,  8->41, service code 9
+link no.142,  41->8, service code 9
+link no.143,  19->42, service code -9
+link no.144,  42->19, service code -9
+link no.145,  8->43, service code 10
+link no.146,  43->8, service code 10
+link no.147,  21->44, service code -10
+link no.148,  44->21, service code -10
+link no.149,  8->45, service code 11
+link no.150,  45->8, service code 11
+link no.151,  22->46, service code -11
+link no.152,  46->22, service code -11
+link no.153,  8->47, service code 12
+link no.154,  47->8, service code 12
+link no.155,  23->48, service code -12
+link no.156,  48->23, service code -12
+link no.157,  9->49, service code 13
+link no.158,  49->9, service code 13
+link no.159,  24->50, service code -13
+link no.160,  50->24, service code -13
+link no.161,  9->51, service code 14
+link no.162,  51->9, service code 14
+link no.163,  21->52, service code -14
+link no.164,  52->21, service code -14
+link no.165,  11->53, service code 15
+link no.166,  53->11, service code 15
+link no.167,  22->54, service code -15
+link no.168,  54->22, service code -15
+link no.169,  11->55, service code 16
+link no.170,  55->11, service code 16
+link no.171,  23->56, service code -16
+link no.172,  56->23, service code -16
+link no.173,  12->57, service code 17
+link no.174,  57->12, service code 17
+link no.175,  24->58, service code -17
+link no.176,  58->24, service code -17
+link no.177,  12->59, service code 18
+link no.178,  59->12, service code 18
+link no.179,  24->60, service code -18
+link no.180,  60->24, service code -18
+link no.181,  18->61, service code 19
+link no.182,  61->18, service code 19
+link no.183,  3->62, service code -19
+link no.184,  62->3, service code -19
+link no.185,  18->63, service code 20
+link no.186,  63->18, service code 20
+link no.187,  6->64, service code -20
+link no.188,  64->6, service code -20
+link no.189,  19->65, service code 21
+link no.190,  65->19, service code 21
+link no.191,  3->66, service code -21
+link no.192,  66->3, service code -21
+link no.193,  19->67, service code 22
+link no.194,  67->19, service code 22
+link no.195,  6->68, service code -22
+link no.196,  68->6, service code -22
+link no.197,  21->69, service code 23
+link no.198,  69->21, service code 23
+link no.199,  3->70, service code -23
+link no.200,  70->3, service code -23
+link no.201,  21->71, service code 24
+link no.202,  71->21, service code 24
+link no.203,  6->72, service code -24
+link no.204,  72->6, service code -24
+link no.205,  22->73, service code 25
+link no.206,  73->22, service code 25
+link no.207,  3->74, service code -25
+link no.208,  74->3, service code -25
+link no.209,  22->75, service code 26
+link no.210,  75->22, service code 26
+link no.211,  6->76, service code -26
+link no.212,  76->6, service code -26
+link no.213,  23->77, service code 27
+link no.214,  77->23, service code 27
+link no.215,  3->78, service code -27
+link no.216,  78->3, service code -27
+link no.217,  23->79, service code 28
+link no.218,  79->23, service code 28
+link no.219,  6->80, service code -28
+link no.220,  80->6, service code -28
+link no.221,  24->81, service code 29
+link no.222,  81->24, service code 29
+link no.223,  3->82, service code -29
+link no.224,  82->3, service code -29
+link no.225,  24->83, service code 30
+link no.226,  83->24, service code 30
+link no.227,  6->84, service code -30
+link no.228,  84->6, service code -30
+link no.229,  85->1, service code 100
+link no.230,  13->86, service code 101
+link no.231,  87->1, service code 100
+link no.232,  20->88, service code 101
+link no.233,  89->1, service code 100
+link no.234,  10->90, service code 101
+link no.235,  91->2, service code 100
+link no.236,  13->92, service code 101
+link no.237,  93->2, service code 100
+link no.238,  20->94, service code 101
+link no.239,  95->2, service code 100
+link no.240,  10->96, service code 101
+link no.241,  97->13, service code 100
+link no.242,  1->98, service code 101
+link no.243,  99->13, service code 100
+link no.244,  2->100, service code 101
+link no.245,  101->13, service code 100
+link no.246,  10->102, service code 101
+link no.247,  103->20, service code 100
+link no.248,  1->104, service code 101
+link no.249,  105->20, service code 100
+link no.250,  2->106, service code 101
+link no.251,  107->20, service code 100
+link no.252,  10->108, service code 101
+link no.253,  109->1, service code 100
+link no.254,  13->110, service code 101
+link no.255,  111->1, service code 100
+link no.256,  20->112, service code 101
+link no.257,  113->1, service code 100
+link no.258,  20->114, service code 101
+link no.259,  115->2, service code 100
+link no.260,  13->116, service code 101
+link no.261,  117->2, service code 100
+link no.262,  20->118, service code 101
+link no.263,  119->2, service code 100
+link no.264,  10->120, service code 101
+link no.265,  121->13, service code 100
+link no.266,  1->122, service code 101
+link no.267,  123->13, service code 100
+link no.268,  2->124, service code 101
+link no.269,  125->13, service code 100
+link no.270,  10->126, service code 101
+link no.271,  127->20, service code 100
+link no.272,  1->128, service code 101
+link no.273,  129->20, service code 100
+link no.274,  2->130, service code 101
+link no.275,  131->20, service code 100
+link no.276,  10->132, service code 101
+link no.277,  133->1, service code 100
+link no.278,  13->134, service code 101
+link no.279,  135->2, service code 100
+link no.280,  20->136, service code 101
+link no.281,  137->13, service code 100
+link no.282,  1->138, service code 101
+link no.283,  139->20, service code 100
+link no.284,  2->140, service code 101
+link no.285,  141->1, service code 100
+link no.286,  13->142, service code 101
+link no.287,  143->2, service code 100
+link no.288,  20->144, service code 101
+
+
+Debug: LB iteration 0, Vehicle 1 performing DP: origin 1 -> destination 13
+ Dual 	{{ _15[2]_25[2]}}; Label Cost 25.000000
+ 
+Debug: LB iteration 0, Vehicle 2 performing DP: origin 1 -> destination 20
+ Dual 	{{ _4[2]_17[2]_29[2]}}; Label Cost 18.000000
+ 
+Debug: LB iteration 0, Vehicle 3 performing DP: origin 1 -> destination 10
+ Dual 	{{ _17[2]_29[2]}}; Label Cost 22.500000
+ 
+Debug: LB iteration 0, Vehicle 4 performing DP: origin 2 -> destination 13
+ Dual 	{{ _4[2]_9[2]_21[2]}}; Label Cost 19.000000
+ 
+Debug: LB iteration 0, Vehicle 5 performing DP: origin 2 -> destination 20
+ Dual 	{{ _4[2]_17[2]_29[2]}}; Label Cost 21.000000
+ 
+Debug: LB iteration 0, Vehicle 6 performing DP: origin 2 -> destination 10
+ Dual 	{{ _17[2]_29[2]}}; Label Cost 25.500000
+ 
+Debug: LB iteration 0, Vehicle 7 performing DP: origin 13 -> destination 1
+ Dual 	{{ _17[2]_29[2]}}; Label Cost 16.000000
+ 
+Debug: LB iteration 0, Vehicle 8 performing DP: origin 13 -> destination 2
+ Dual 	{{ _17[2]_29[2]}}; Label Cost 19.000000
+ 
+Debug: LB iteration 0, Vehicle 9 performing DP: origin 13 -> destination 10
+ Dual 	{{ _17[2]_29[2]}}; Label Cost 20.000000
+ 
+Debug: LB iteration 0, Vehicle 10 performing DP: origin 20 -> destination 1
+ Dual 	{{ _20[2]_21[2]}}; Label Cost 26.000000
+ 
+Debug: LB iteration 0, Vehicle 11 performing DP: origin 20 -> destination 2
+ Dual 	{{ _20[2]_21[2]}}; Label Cost 29.000000
+ 
+Debug: LB iteration 0, Vehicle 12 performing DP: origin 20 -> destination 10
+ Dual 	{{ _11[2]_20[2]}}; Label Cost 23.500000
+ 
+Debug: LB iteration 0, Vehicle 13 performing DP: origin 1 -> destination 13
+ Dual 	{{ _15[2]_25[2]}}; Label Cost 25.000000
+ 
+Debug: LB iteration 0, Vehicle 14 performing DP: origin 1 -> destination 20
+ Dual 	{{ _4[2]_17[2]_29[2]}}; Label Cost 18.000000
+ 
+Debug: LB iteration 0, Vehicle 15 performing DP: origin 1 -> destination 20
+ Dual 	{{ _4[2]_17[2]_29[2]}}; Label Cost 18.000000
+ 
+Debug: LB iteration 0, Vehicle 16 performing DP: origin 2 -> destination 13
+ Dual 	{{ _4[2]_9[2]_21[2]}}; Label Cost 19.000000
+ 
+Debug: LB iteration 0, Vehicle 17 performing DP: origin 2 -> destination 20
+ Dual 	{{ _4[2]_17[2]_29[2]}}; Label Cost 21.000000
+ 
+Debug: LB iteration 0, Vehicle 18 performing DP: origin 2 -> destination 10
+ Dual 	{{ _17[2]_29[2]}}; Label Cost 25.500000
+ 
+Debug: LB iteration 0, Vehicle 19 performing DP: origin 13 -> destination 1
+ Dual 	{{ _17[2]_29[2]}}; Label Cost 16.000000
+ 
+Debug: LB iteration 0, Vehicle 20 performing DP: origin 13 -> destination 2
+ Dual 	{{ _17[2]_29[2]}}; Label Cost 19.000000
+ 
+Debug: LB iteration 0, Vehicle 21 performing DP: origin 13 -> destination 10
+ Dual 	{{ _17[2]_29[2]}}; Label Cost 20.000000
+ 
+Debug: LB iteration 0, Vehicle 22 performing DP: origin 20 -> destination 1
+ Dual 	{{ _20[2]_21[2]}}; Label Cost 26.000000
+ 
+Debug: LB iteration 0, Vehicle 23 performing DP: origin 20 -> destination 2
+ Dual 	{{ _20[2]_21[2]}}; Label Cost 29.000000
+ 
+Debug: LB iteration 0, Vehicle 24 performing DP: origin 20 -> destination 10
+ Dual 	{{ _11[2]_20[2]}}; Label Cost 23.500000
+ 
+Debug: LB iteration 0, Vehicle 25 performing DP: origin 1 -> destination 13
+ Dual 	{{ _15[2]_25[2]}}; Label Cost 25.000000
+ 
+Debug: LB iteration 0, Vehicle 26 performing DP: origin 2 -> destination 20
+ Dual 	{{ _4[2]_17[2]_29[2]}}; Label Cost 21.000000
+ 
+Debug: LB iteration 0, Vehicle 27 performing DP: origin 13 -> destination 1
+ Dual 	{{ _17[2]_29[2]}}; Label Cost 16.000000
+ 
+Debug: LB iteration 0, Vehicle 28 performing DP: origin 20 -> destination 2
+ Dual 	{{ _20[2]_21[2]}}; Label Cost 29.000000
+ 
+Debug: LB iteration 0, Vehicle 29 performing DP: origin 1 -> destination 13
+ Dual 	{{ _15[2]_25[2]}}; Label Cost 25.000000
+ 
+Debug: LB iteration 0, Vehicle 30 performing DP: origin 2 -> destination 20
+ Dual 	{{ _4[2]_17[2]_29[2]}}; Label Cost 21.000000
+ LR_global_lower_bound = , 661.500000Summary: Lower Bound = 661.500000, upper Bound = 99999.000000, gap = 99337.500000, relative_gap = 99.338%
+******************************************************************************************************************
+
+CPU Running Time = 238912 milliseconds
