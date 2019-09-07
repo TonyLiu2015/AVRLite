@@ -1,0 +1,26 @@
+Network has 14 nodes, 18 links, 2  passengers, 2 vehicles
+
+link no.7,  2->7, service code 1
+link no.8,  7->2, service code 1
+link no.9,  3->8, service code -1
+link no.10,  8->3, service code -1
+link no.11,  4->9, service code 2
+link no.12,  9->4, service code 2
+link no.13,  5->10, service code -2
+link no.14,  10->5, service code -2
+link no.15,  11->1, service code 100
+link no.16,  6->12, service code 101
+link no.17,  13->1, service code 100
+link no.18,  6->14, service code 101
+
+
+Generate upper bound
+Primal 	{{ _10[2]}}; Label Cost -5.500000
+LR_global_upper_bound += path_cost_by_vehicle_1, -5.500000, 24.500000
+upper bound generation, for vehicle 2, pax 1 is not allowed or no needed to servePrimal 	{{ _20[2]}}; Label Cost -5.000000
+LR_global_upper_bound += path_cost_by_vehicle_2, -5.000000, 19.500000
+upper bound generation, for vehicle 3, pax 1 is not allowed or no needed to serve
+upper bound generation, for vehicle 3, pax 2 is not allowed or no needed to serveSummary: Lower Bound = -99999.000000, upper Bound = 19.500000, gap = 100018.500000, relative_gap = 512915.381%
+******************************************************************************************************************
+
+CPU Running Time = 185 milliseconds

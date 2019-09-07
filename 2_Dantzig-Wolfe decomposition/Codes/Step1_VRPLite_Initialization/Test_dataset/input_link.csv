@@ -1,0 +1,7 @@
+from_node_id,to_node_id,direction,length,number_of_lanes,speed_limit_in_mph,lane_capacity_in_vhc_per_hour,jam_density,wave_speed,geometry
+1000,2000,1,2,1,60,1,180,12,"<LineString><coordinates>13.047986,32.331161,0.0 14.758702,33.655262,0.0</coordinates></LineString>"
+2000,3000,1,3,1,60,1,180,12,"<LineString><coordinates>14.758702,33.655262,0.0 17.638710,33.668264,0.0</coordinates></LineString>"
+1000,4000,1,2,1,60,1,180,12,"<LineString><coordinates>13.047986,32.331161,0.0 14.648182,31.178325,0.0</coordinates></LineString>"
+4000,5000,1,4,1,60,1,180,12,"<LineString><coordinates>14.648182,31.178325,0.0 17.560696,31.197828,0.0</coordinates></LineString>"
+5000,6000,1,3,1,60,1,180,12,"<LineString><coordinates>17.560696,31.197828,0.0 19.524043,32.283520,0.0</coordinates></LineString>"
+3000,6000,1,3,1,60,1,180,12,"<LineString><coordinates>17.638710,33.668264,0.0 19.524043,32.283520,0.0</coordinates></LineString>"

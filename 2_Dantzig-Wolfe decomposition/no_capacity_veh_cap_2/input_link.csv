@@ -1,0 +1,109 @@
+from_node_id,to_node_id,direction,length,number_of_lanes,speed_limit_in_mph,lane_capacity_in_vhc_per_hour,geometry
+1,2,1,6,1,60,10,"<LineString><coordinates>0.000000,18.221500,0.0 10.724600,18.221500,0.0</coordinates></LineString>"
+1,3,1,4,1,60,10,"<LineString><coordinates>-0.050000,18.271500,0.0 -0.050000,15.491000,0.0</coordinates></LineString>"
+2,1,1,6,1,60,10,"<LineString><coordinates>10.724600,18.221500,0.0 0.000000,18.221500,0.0</coordinates></LineString>"
+2,6,1,5,1,60,10,"<LineString><coordinates>10.674600,18.271500,0.0 10.674600,15.491000,0.0</coordinates></LineString>"
+3,1,1,4,1,60,10,"<LineString><coordinates>0.050000,15.491000,0.0 0.050000,18.271500,0.0</coordinates></LineString>"
+3,4,1,4,1,60,10,"<LineString><coordinates>0.000000,15.441000,0.0 3.177700,15.441000,0.0</coordinates></LineString>"
+3,12,1,4,1,60,10,"<LineString><coordinates>-0.050000,15.491000,0.0 -0.050000,10.724600,0.0</coordinates></LineString>"
+4,3,1,4,1,60,10,"<LineString><coordinates>3.177700,15.441000,0.0 0.000000,15.441000,0.0</coordinates></LineString>"
+4,5,1,2,1,60,10,"<LineString><coordinates>3.177700,15.441000,0.0 6.752500,15.441000,0.0</coordinates></LineString>"
+4,11,1,6,1,60,10,"<LineString><coordinates>3.127700,15.491000,0.0 3.127700,10.724600,0.0</coordinates></LineString>"
+5,4,1,2,1,60,10,"<LineString><coordinates>6.752500,15.441000,0.0 3.177700,15.441000,0.0</coordinates></LineString>"
+5,6,1,4,1,60,10,"<LineString><coordinates>6.752500,15.441000,0.0 10.724600,15.441000,0.0</coordinates></LineString>"
+5,9,1,5,1,60,10,"<LineString><coordinates>6.702500,15.491000,0.0 6.702500,13.107800,0.0</coordinates></LineString>"
+6,2,1,5,1,60,10,"<LineString><coordinates>10.774600,15.491000,0.0 10.774600,18.271500,0.0</coordinates></LineString>"
+6,5,1,4,1,60,10,"<LineString><coordinates>10.724600,15.441000,0.0 6.752500,15.441000,0.0</coordinates></LineString>"
+6,8,1,2,1,60,10,"<LineString><coordinates>10.674600,15.491000,0.0 10.674600,13.107800,0.0</coordinates></LineString>"
+7,8,1,3,1,60,10,"<LineString><coordinates>14.696600,13.057800,0.0 10.724600,13.057800,0.0</coordinates></LineString>"
+7,18,1,2,1,60,10,"<LineString><coordinates>14.646600,13.107800,0.0 14.646600,10.724600,0.0</coordinates></LineString>"
+8,6,1,2,1,60,10,"<LineString><coordinates>10.774600,13.107800,0.0 10.774600,15.491000,0.0</coordinates></LineString>"
+8,7,1,3,1,60,10,"<LineString><coordinates>10.724600,13.057800,0.0 14.696600,13.057800,0.0</coordinates></LineString>"
+8,9,1,10,1,60,10,"<LineString><coordinates>10.724600,13.057800,0.0 6.752500,13.057800,0.0</coordinates></LineString>"
+8,16,1,5,1,60,10,"<LineString><coordinates>10.674600,13.107800,0.0 10.674600,10.724600,0.0</coordinates></LineString>"
+9,5,1,5,1,60,10,"<LineString><coordinates>6.802500,13.107800,0.0 6.802500,15.491000,0.0</coordinates></LineString>"
+9,8,1,10,1,60,10,"<LineString><coordinates>6.752500,13.057800,0.0 10.724600,13.057800,0.0</coordinates></LineString>"
+9,10,1,3,1,60,10,"<LineString><coordinates>6.702500,13.107800,0.0 6.702500,10.724600,0.0</coordinates></LineString>"
+10,9,1,3,1,60,10,"<LineString><coordinates>6.802500,10.724600,0.0 6.802500,13.107800,0.0</coordinates></LineString>"
+10,11,1,5,1,60,10,"<LineString><coordinates>6.752500,10.674600,0.0 3.177700,10.674600,0.0</coordinates></LineString>"
+10,15,1,6,1,60,10,"<LineString><coordinates>6.702500,10.724600,0.0 6.702500,5.560900,0.0</coordinates></LineString>"
+10,16,1,4,1,60,10,"<LineString><coordinates>6.752500,10.674600,0.0 10.724600,10.674600,0.0</coordinates></LineString>"
+10,17,1,8,1,60,10,"<LineString><coordinates>6.726775,10.681726,0.0 10.698875,8.298426,0.0</coordinates></LineString>"
+11,4,1,6,1,60,10,"<LineString><coordinates>3.227700,10.724600,0.0 3.227700,15.491000,0.0</coordinates></LineString>"
+11,10,1,5,1,60,10,"<LineString><coordinates>3.177700,10.674600,0.0 6.752500,10.674600,0.0</coordinates></LineString>"
+11,12,1,6,1,60,10,"<LineString><coordinates>3.177700,10.674600,0.0 0.000000,10.674600,0.0</coordinates></LineString>"
+11,14,1,4,1,60,10,"<LineString><coordinates>3.127700,10.724600,0.0 3.127700,5.560900,0.0</coordinates></LineString>"
+12,3,1,4,1,60,10,"<LineString><coordinates>0.050000,10.724600,0.0 0.050000,15.491000,0.0</coordinates></LineString>"
+12,11,1,6,1,60,10,"<LineString><coordinates>0.000000,10.674600,0.0 3.177700,10.674600,0.0</coordinates></LineString>"
+12,13,1,3,1,60,10,"<LineString><coordinates>-0.050000,10.724600,0.0 -0.050000,-0.000000,0.0</coordinates></LineString>"
+13,12,1,3,1,60,10,"<LineString><coordinates>0.050000,0.000000,0.0 0.050000,10.724600,0.0</coordinates></LineString>"
+13,24,1,4,1,60,10,"<LineString><coordinates>0.000000,-0.050000,0.0 3.177700,-0.050000,0.0</coordinates></LineString>"
+14,11,1,4,1,60,10,"<LineString><coordinates>3.227700,5.560900,0.0 3.227700,10.724600,0.0</coordinates></LineString>"
+14,15,1,5,1,60,10,"<LineString><coordinates>3.177700,5.510900,0.0 6.752500,5.510900,0.0</coordinates></LineString>"
+14,23,1,4,1,60,10,"<LineString><coordinates>3.127700,5.560900,0.0 3.127700,3.177700,0.0</coordinates></LineString>"
+15,10,1,6,1,60,10,"<LineString><coordinates>6.802500,5.560900,0.0 6.802500,10.724600,0.0</coordinates></LineString>"
+15,14,1,5,1,60,10,"<LineString><coordinates>6.752500,5.510900,0.0 3.177700,5.510900,0.0</coordinates></LineString>"
+15,19,1,3,1,60,10,"<LineString><coordinates>6.752500,5.510900,0.0 10.724600,5.510900,0.0</coordinates></LineString>"
+15,22,1,3,1,60,10,"<LineString><coordinates>6.702500,5.560900,0.0 6.702500,3.177700,0.0</coordinates></LineString>"
+16,8,1,5,1,60,10,"<LineString><coordinates>10.774600,10.724600,0.0 10.774600,13.107800,0.0</coordinates></LineString>"
+16,10,1,4,1,60,10,"<LineString><coordinates>10.724600,10.674600,0.0 6.752500,10.674600,0.0</coordinates></LineString>"
+16,17,1,2,1,60,10,"<LineString><coordinates>10.674600,10.724600,0.0 10.674600,8.341300,0.0</coordinates></LineString>"
+16,18,1,3,1,60,10,"<LineString><coordinates>10.724600,10.674600,0.0 14.696600,10.674600,0.0</coordinates></LineString>"
+17,10,1,8,1,60,10,"<LineString><coordinates>10.750325,8.384174,0.0 6.778225,10.767474,0.0</coordinates></LineString>"
+17,16,1,2,1,60,10,"<LineString><coordinates>10.774600,8.341300,0.0 10.774600,10.724600,0.0</coordinates></LineString>"
+17,19,1,2,1,60,10,"<LineString><coordinates>10.674600,8.341300,0.0 10.674600,5.560900,0.0</coordinates></LineString>"
+18,7,1,2,1,60,10,"<LineString><coordinates>14.746600,10.724600,0.0 14.746600,13.107800,0.0</coordinates></LineString>"
+18,16,1,3,1,60,10,"<LineString><coordinates>14.696600,10.674600,0.0 10.724600,10.674600,0.0</coordinates></LineString>"
+18,20,1,4,1,60,10,"<LineString><coordinates>14.649712,10.741965,0.0 10.677712,0.017365,0.0</coordinates></LineString>"
+19,15,1,3,1,60,10,"<LineString><coordinates>10.724600,5.510900,0.0 6.752500,5.510900,0.0</coordinates></LineString>"
+19,17,1,2,1,60,10,"<LineString><coordinates>10.774600,5.560900,0.0 10.774600,8.341300,0.0</coordinates></LineString>"
+19,20,1,4,1,60,10,"<LineString><coordinates>10.674600,5.560900,0.0 10.674600,-0.000000,0.0</coordinates></LineString>"
+20,18,1,4,1,60,10,"<LineString><coordinates>10.771488,-0.017365,0.0 14.743488,10.707235,0.0</coordinates></LineString>"
+20,19,1,4,1,60,10,"<LineString><coordinates>10.774600,0.000000,0.0 10.774600,5.560900,0.0</coordinates></LineString>"
+20,21,1,6,1,60,10,"<LineString><coordinates>10.724600,-0.050000,0.0 6.752500,-0.050000,0.0</coordinates></LineString>"
+20,22,1,5,1,60,10,"<LineString><coordinates>10.755835,0.039043,0.0 6.783735,3.216743,0.0</coordinates></LineString>"
+21,20,1,6,1,60,10,"<LineString><coordinates>6.752500,-0.050000,0.0 10.724600,-0.050000,0.0</coordinates></LineString>"
+21,22,1,2,1,60,10,"<LineString><coordinates>6.802500,0.000000,0.0 6.802500,3.177700,0.0</coordinates></LineString>"
+21,24,1,3,1,60,10,"<LineString><coordinates>6.752500,-0.050000,0.0 3.177700,-0.050000,0.0</coordinates></LineString>"
+22,15,1,3,1,60,10,"<LineString><coordinates>6.802500,3.177700,0.0 6.802500,5.560900,0.0</coordinates></LineString>"
+22,20,1,5,1,60,10,"<LineString><coordinates>6.721265,3.138657,0.0 10.693365,-0.039043,0.0</coordinates></LineString>"
+22,21,1,2,1,60,10,"<LineString><coordinates>6.702500,3.177700,0.0 6.702500,-0.000000,0.0</coordinates></LineString>"
+22,23,1,4,1,60,10,"<LineString><coordinates>6.752500,3.127700,0.0 3.177700,3.127700,0.0</coordinates></LineString>"
+23,14,1,4,1,60,10,"<LineString><coordinates>3.227700,3.177700,0.0 3.227700,5.560900,0.0</coordinates></LineString>"
+23,22,1,4,1,60,10,"<LineString><coordinates>3.177700,3.127700,0.0 6.752500,3.127700,0.0</coordinates></LineString>"
+23,24,1,2,1,60,10,"<LineString><coordinates>3.127700,3.177700,0.0 3.127700,-0.000000,0.0</coordinates></LineString>"
+24,13,1,4,1,60,10,"<LineString><coordinates>3.177700,-0.050000,0.0 0.000000,-0.050000,0.0</coordinates></LineString>"
+24,21,1,3,1,60,10,"<LineString><coordinates>3.177700,-0.050000,0.0 6.752500,-0.050000,0.0</coordinates></LineString>"
+24,23,1,2,1,60,10,"<LineString><coordinates>3.227700,0.000000,0.0 3.227700,3.177700,0.0</coordinates></LineString>"
+3,11,1,7,1,60,10,
+11,3,1,7,1,60,10,
+4,10,1,8,1,60,10,
+10,4,1,8,1,60,10,
+11,15,1,6,1,60,10,
+15,11,1,6,1,60,10,
+23,21,1,5,1,60,10,
+21,23,1,5,1,60,10,
+1,1,1,1,1,60,1000,
+2,2,1,1,1,60,1000,
+3,3,1,1,1,60,1000,
+4,4,1,1,1,60,1000,
+5,5,1,1,1,60,1000,
+6,6,1,1,1,60,1000,
+7,7,1,1,1,60,1000,
+8,8,1,1,1,60,1000,
+9,9,1,1,1,60,1000,
+10,10,1,1,1,60,1000,
+11,11,1,1,1,60,1000,
+12,12,1,1,1,60,1000,
+13,13,1,1,1,60,1000,
+14,14,1,1,1,60,1000,
+15,15,1,1,1,60,1000,
+16,16,1,1,1,60,1000,
+17,17,1,1,1,60,1000,
+18,18,1,1,1,60,1000,
+19,19,1,1,1,60,1000,
+20,20,1,1,1,60,1000,
+21,21,1,1,1,60,1000,
+22,22,1,1,1,60,1000,
+23,23,1,1,1,60,1000,
+24,24,1,1,1,60,1000,

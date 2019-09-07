@@ -78,7 +78,7 @@ int g_passenger_vehicle_visit_flag[_MAX_NUMBER_OF_PASSENGERS][_MAX_NUMBER_OF_VEH
 //prohibt_visit and passernger can only be carried once control this one
 int g_vehicle_passenger_visit_allowed_flag[_MAX_NUMBER_OF_VEHICLES][_MAX_NUMBER_OF_PASSENGERS] = { 0 };
 
-int g_max_vehicle_capacity = 1;
+int g_max_vehicle_capacity = 10;
 int g_number_of_passengers = 0;
 
 int g_outbound_node_id[_MAX_NUMBER_OF_NODES][_MAX_NUMBER_OF_OUTBOUND_NODES];
@@ -459,8 +459,9 @@ public:
 		for (std::map<int, int>::iterator it = passenger_service_state.begin(); it != passenger_service_state.end(); ++it)
 		{
 			s << "_";
-
-			s << it->first << "[" << it->second << "]";
+			
+			s << g_external_passenger_id_map[it->first] << "[" << it->second << "]";
+			//s << it->first << "[" << it->second << "]";
 		}
 		string converted(s.str());
 		return converted;
@@ -625,7 +626,8 @@ float g_optimal_time_dependenet_dynamic_programming(
 
 	}
 	g_ending_state_vector[vehicle_id].Reset();
-
+	//g_ending_state_vector[vehicle_id].m_VSStateVector[0].m_visit_node_sequence.push_back(g_external_node_id_map[g_vehicle_origin_node[vehicle_id]]);
+	//g_ending_state_vector[vehicle_id].m_VSStateVector[0].m_visit_time_sequence.push_back(g_vehicle_departure_time_beginning[vehicle_id]);
 	if (base_tree_vehicle_no >= 1)// got the infor from tree for this vehicle
 	{
 		// copy the values
@@ -1363,23 +1365,37 @@ void TD_link_travel_time_update(int vehicle_id)
 	//int m_to_node;
 	int m_from_time;
 	//int m_to_time;
+	//int m_from_node;
+	int m_to_node;
+
 	int m_link_no;
+
+	m_from_node= g_vehicle_origin_node[vehicle_id];
+	m_to_node = g_ending_state_vector[vehicle_id].m_VSStateVector[0].m_visit_node_sequence[0];
+	m_from_time = g_vehicle_departure_time_beginning[vehicle_id];
+	m_link_no = g_link_no[m_from_node][m_to_node];
+	g_link_cap[m_link_no][m_from_time] = max(0, g_link_cap[m_link_no][m_from_time] - 1);
+
 	if (g_ending_state_vector[vehicle_id].m_VSStateVector.size() >= 1)
 	{
-		for (int i = 0; i < g_ending_state_vector[vehicle_id].m_VSStateVector[0].m_visit_link_sequence.size(); i++)
+		for (int i = 0; i < g_ending_state_vector[vehicle_id].m_VSStateVector[0].m_visit_link_sequence.size()-1; i++)
 		{
 			m_from_time = g_ending_state_vector[vehicle_id].m_VSStateVector[0].m_visit_time_sequence[i];
+
 			//m_to_time = g_ending_state_vector[vehicle_id].m_VSStateVector[0].m_visit_time_sequence[i + 1];
+			m_from_node = g_ending_state_vector[vehicle_id].m_VSStateVector[0].m_visit_node_sequence[i];
+			m_to_node = g_ending_state_vector[vehicle_id].m_VSStateVector[0].m_visit_node_sequence[i+1];;
+			int m_link_no = g_link_no[m_from_node][m_to_node];
+			//int link_no = g_ending_state_vector[vehicle_id].m_VSStateVector[0].m_visit_link_sequence[i+1];
+			//int link_no = g_ending_state_vector[vehicle_id].m_VSStateVector[0].m_visit_link_sequence[i];
 
-			int link_no = g_ending_state_vector[vehicle_id].m_VSStateVector[0].m_visit_link_sequence[i];
-
-			if (link_no >= 0)  // no waiting arc of -1
+			if (m_link_no >= 0)  // no waiting arc of -1
 			{
-				g_link_cap[link_no][m_from_time] = max(0, g_link_cap[link_no][m_from_time] - 1);
+				g_link_cap[m_link_no][m_from_time] = max(0, g_link_cap[m_link_no][m_from_time] - 1);
 
-				if (g_link_cap[link_no][m_from_time] == 0)
+				if (g_link_cap[m_link_no][m_from_time] == 0)
 				{
-					g_link_time_dependent_travel_time[link_no][m_from_time] = _MAX_LABEL_COST;
+					g_link_time_dependent_travel_time[m_link_no][m_from_time] = _MAX_LABEL_COST;
 				}
 			}
 		}

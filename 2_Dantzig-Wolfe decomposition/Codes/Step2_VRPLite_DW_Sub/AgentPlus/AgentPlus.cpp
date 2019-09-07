@@ -78,7 +78,7 @@ int g_passenger_vehicle_visit_flag[_MAX_NUMBER_OF_PASSENGERS][_MAX_NUMBER_OF_VEH
 //prohibt_visit and passernger can only be carried once control this one
 int g_vehicle_passenger_visit_allowed_flag[_MAX_NUMBER_OF_VEHICLES][_MAX_NUMBER_OF_PASSENGERS] = { 0 };
 
-int g_max_vehicle_capacity = 1;
+int g_max_vehicle_capacity = 10;
 int g_number_of_passengers = 0;
 
 int g_outbound_node_id[_MAX_NUMBER_OF_NODES][_MAX_NUMBER_OF_OUTBOUND_NODES];
@@ -1454,10 +1454,10 @@ bool g_Optimization_Lagrangian_Method_Vehicle_Routing_Problem_Simple_Variables()
 			//step 2: Update time-dependent link capacity. if the capacity is 0, the link travel cost is infinite.
 
 			// output vehicle passing node sequence
-			if (g_vehicle_depot_tree_id[v] >= 1) // using base tree
-				TD_link_travel_time_update(g_vehicle_depot_tree_id[v]);
-			else
-				TD_link_travel_time_update(v);
+			//if (g_vehicle_depot_tree_id[v] >= 1) // using base tree
+			//	TD_link_travel_time_update(g_vehicle_depot_tree_id[v]);
+			//else
+			//	TD_link_travel_time_update(v);
 
 			//fprintf(g_pFileDebugLog, "LR_global_lower_bound += path_cost_by_vehicle_v, %f, %f", path_cost_by_vehicle_v, LR_global_lower_bound);
 		}
@@ -1519,7 +1519,7 @@ bool g_upper_bound_generation()
 				g_vehicle_arrival_time_beginning[v],
 				g_vehicle_arrival_time_ending[v],
 				g_vehicle_capacity[v],
-				2,
+				5,
 				0,
 				g_vehicle_depot_tree_id[v]);
 		LR_global_upper_bound += path_cost_by_vehicle_v;

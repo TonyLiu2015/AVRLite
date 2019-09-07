@@ -1,0 +1,7 @@
+name,node_id,depot_type,x,y,geometry
+,1000,10,13.047986,32.331161,"<Point><coordinates>13.047986,32.331161</coordinates></Point>"
+,2000,0,14.758702,33.655262,"<Point><coordinates>14.758702,33.655262</coordinates></Point>"
+,3000,0,17.63871,33.668264,"<Point><coordinates>17.638710,33.668264</coordinates></Point>"
+,4000,0,14.648182,31.178325,"<Point><coordinates>14.648182,31.178325</coordinates></Point>"
+,5000,0,17.560696,31.197828,"<Point><coordinates>17.560696,31.197828</coordinates></Point>"
+,6000,10,19.524043,32.28352,"<Point><coordinates>19.524043,32.283520</coordinates></Point>"
