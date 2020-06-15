@@ -4,7 +4,7 @@
 /*
 Process of flow-based ADMM:
 
-Step 1: read input data: input_agent.csv, input_arc_capacity.csv, and input_passenger_demand.csv
+Step 1: read input data
 
 Step 2: perform the Newton method for each path/column
 	step 2.1: initialization for passenger rho, arc capacity rho, passenger sub_gradient, arc capacity sub_gradient, incidences of path-to-passenger and path-to-arc

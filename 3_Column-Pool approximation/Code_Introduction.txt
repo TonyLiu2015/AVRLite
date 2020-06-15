@@ -1,0 +1,7 @@
+1. Agent-based ADMM: It is used to generate the column pool by solving a sample dataset. 
+The study case only has pickup nodes with very tight pickup window, so we don't use state-transition rules.
+In this case, the vehicle capacity can be used to record the vehicle carrying state.
+
+2. Flow-based ADMM is used to solve the LP model where arc_to_agent and passenger_to_agent relation are generated internally.
+
+3. Flow-based ADMM_version_2 puts the arc_to_agent and passenger_to_agent relation into external dictionaries, so it can solve this prolem faster.
